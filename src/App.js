@@ -1,18 +1,19 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import './components/HomeFeed';
-import './components/NavBar';
-import './components/ProfilePage';
-import './components/error404'
+import HomeFeed from './components/HomeFeed';
+import Navigation from './components/Navigation';
+import ProfilePage from './components/ProfilePage';
+import Error404 from './components/Error404';
 
 function App() {
   return (
     <BrowserRouter> 
-    <NavBar></NavBar>
-    <Switch>
-      <Route exact path="/" component={HomeFeed}></Route>
-
-    </Switch>
+    <Navigation />
+    <Routes>
+      <Route exact path="/" component={HomeFeed}/>
+      <Route exact path="/profile" component={ProfilePage}/>
+      <Route path="/" component={Error404} />
+    </Routes>
     </BrowserRouter>
   );
 }
