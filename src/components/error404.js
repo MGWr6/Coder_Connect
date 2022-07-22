@@ -1,9 +1,11 @@
+import App from '../App';
+
 const React = require('react')
 
 
 function Error404 () {
     return (
-        <Def>
+        <App>
             <main>
                 <h1>404: Page not found</h1>
                 <p>Oops, sorry, we can't find that page!</p>
@@ -12,7 +14,7 @@ function Error404 () {
                     <div>Photo from <a href="http.cat/404">HTTP Cats</a></div>
                 </div>
             </main>
-        </Def>
+        </App>
     )
 }
 

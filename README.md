@@ -1,75 +1,34 @@
-# Getting Started with Create React App
+# Welcome to CoderConnect
+This social media site was designed with coders in mind. Creating a profile is free and easy; users showcase their best projects on their CoderConnect profile via a connection to their GitHub account. Users display a bio, which contains information on what area of programming interests them, the coding languages in which they are proficient, and any other relevant programmer info, such as how many times they had to console.log() `Hello World!` before they could get a job.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Components
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is broken up into the components listed below. These React components all come together in the App.js file inside a function that correctly routes the user to the corresponding page.
 
 
+### `Login/Sign Up Page`
+A simple page to prompt the user to log in or create an account to use CoderConnect.
+
+
+### `Home Feed`
+This page displays what other CoderConnect users are posting. Users stay updated on what their connections are up to, new trends in tech, what companies have the best wfh policies, etc.
+
+
+### `Profile Page`
+This is where users can shine by listing their most impressive projects/apps they have built. They describe what draws them to tech, what sort of programming they do or are interested in, and what coding languages they use. Putting a bio and listing skills, accomplishments, and major projects can result in employers reaching out to the users as well. This community is built on collaboration and innovation, as well as networking. The hope is to unite and inspire those who program for work and fun.
+
+
+
+### `Navigation`
+This navigation bar is listed just below the Browser Router component in the App function so that it will display at the top of the browser. A user interacts with it to toggle between the Login/Sign Up page, Home Feed, and Profile Page.
+
+
+
+### `Error 404`
+If the user types in anything but the correct route for the above components, an Error 404 message will display, complete with an HTTP cat image.
 
 
 

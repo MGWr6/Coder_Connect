@@ -6,6 +6,7 @@ import ProfilePage from './components/ProfilePage';
 import Error404 from './components/Error404';
 
 function App() {
+  console.log(Debugging)
   return (
     <BrowserRouter> 
     <Navigation />
