@@ -44,7 +44,6 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MGWr6/Coder_Connect_Frontend.git"
@@ -54,7 +53,6 @@
   "bugs": {
     "url": "https://github.com/MGWr6/Coder_Connect_Frontend/issues"
   },
-  "homepage": "https://github.com/MGWr6/Coder_Connect_Frontend#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
   }
