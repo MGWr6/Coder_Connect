@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomeFeed from './components/HomeFeed';
 import Navigation from './components/Navigation';
-import ProfilePage from './components/ProfilePage';
+import ProfilePage from './components/profile/ProfilePage';
 import Error404 from './components/Error404';
 
 function App() {
